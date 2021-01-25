@@ -1,0 +1,19 @@
+{
+  "name": "the-apis-postman-hackathon",
+  "version": "1.0.0",
+  "description": "Example code for building your own Ethereum APIs with TheAPIS.",
+  "main": "supplyEth.js",
+  "scripts": {
+    "supplyEth": "node supplyEth.js",
+    "start": "npm run supplyEth",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "TheAPIS [Shain Lafazan + Calvin Pak]",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.21.1",
+    "ethereumjs-tx": "1.3.7",
+    "web3": "1.2.6"
+  }
+}
